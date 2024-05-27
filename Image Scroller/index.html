@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <a href="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/new-cars-2024-alfa-milano-render.jpg?itok=lV3Kh8uR" data-lightbox="slider" class="slide"><img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/new-cars-2024-alfa-milano-render.jpg?itok=lV3Kh8uR" alt="Image 1"></a>
+            <a href="https://media.autoexpress.co.uk/image/private/s--4DPlvi39--/f_auto,t_content-image-full-mobile@1/v1648465748/autoexpress/2022/03/Ford%20Puma%20EV%20-%20exclusive%20image.jpg" data-lightbox="slider" class="slide"><img src="https://media.autoexpress.co.uk/image/private/s--4DPlvi39--/f_auto,t_content-image-full-mobile@1/v1648465748/autoexpress/2022/03/Ford%20Puma%20EV%20-%20exclusive%20image.jpg" alt="Image 2"></a>
+            <a href="https://images.drivespark.com/img/2022/10/maruti-suzuki-grand-vitara-front-view1-1664774421.jpg" data-lightbox="slider" class="slide"><img src="https://images.drivespark.com/img/2022/10/maruti-suzuki-grand-vitara-front-view1-1664774421.jpg" alt="Image 3"></a>
+            <a href="https://www.thecarexpert.co.uk/wp-content/uploads/2022/04/UltimateExterior-2-1200x800.jpeg.webp" data-lightbox="slider" class="slide"><img src="https://www.thecarexpert.co.uk/wp-content/uploads/2022/04/UltimateExterior-2-1200x800.jpeg.webp" alt="Image 4"></a>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
